@@ -1,0 +1,26 @@
+[project]
+name = "AI-maps"
+version = "1.2.0"
+description = "AI Maps Server integrating FastMCP with Google Maps and OpenAI API"
+authors = [
+    { name = "MichalC" }
+]
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn>=0.27.0",
+    "pydantic>=2.6.0",
+    "pydantic-settings>=2.1.0",
+    "openai>=1.12.0",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.26.0",
+    "mcp[cli]>=1.4.1",
+]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["mcp"] 
