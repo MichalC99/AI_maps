@@ -38,14 +38,14 @@ poetry add mcp[cli]
 ```
 
 ## Starting the Server
-To start the server, navigate to the `src/ai_maps` directory and run:
+To start the server, navigate to the `AI_maps` directory and run:
 ```
 python ai_maps_server.py
 ```
 
 ## Testing
 ### 1. Using Command Line
-Open a terminal and run:
+Open a new terminal also navigate to the `AI_maps` and run:
 ```
 python ai_maps_client.py
 ```
