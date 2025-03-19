@@ -1,4 +1,5 @@
 # AI Maps
+![Alt text](mermaid_graph.png)
 
 This application integrates Google Maps with OpenAI via an MCP server.
 
